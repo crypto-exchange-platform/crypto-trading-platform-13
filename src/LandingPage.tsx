@@ -5,6 +5,11 @@ import { HeroSection } from "./HeroSection";
 import { particlesConfig } from "./utils/particleConfig";
 import { Header } from "./Header";
 import { MarketSection } from "./MarketSection";
+import { TradeSection } from "./TradeSection";
+import { PortfolioSection } from "./PortfolioSection";
+import { ForexNewsSection } from "./ForexNewsSection";
+import { TestimonialsSection } from "./Testimonials";
+import { Footer } from "./Footer";
 
 declare global {
   interface Window {
@@ -55,10 +60,13 @@ const LandingPage: FC = () => {
         <div className="relative z-10">
           <HeroSection />
         </div>
-
       </div>
-                        <MarketSection/>
-
+      <MarketSection />
+      <TradeSection />
+      <PortfolioSection />
+      <ForexNewsSection />
+      <TestimonialsSection />
+      <Footer/>
     </>
   );
 };

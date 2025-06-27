@@ -1,10 +1,16 @@
 @import "tailwindcss";
 
-:root {
-  font-family: "Oxanium", sans-serif;
-  color-scheme: light dark;
+@font-face {
+  font-family: 'Audiowide';
+  src: url('/fonts/Audiowide-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
+:root {
+  --font-primary: 'Audiowide', 'Oxanium', sans-serif;
+  color-scheme: light dark;
+}
 html {
   font-family: var(--font-primary);
   scroll-behavior: smooth;

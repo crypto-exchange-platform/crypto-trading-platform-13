@@ -6,7 +6,7 @@ export const particlesConfig = {
     line_linked: {
       enable: true,
       distance: 300,
-      color: '#ffffff', 
+      color: '#86B13F', 
     },
   },
   interactivity: {
